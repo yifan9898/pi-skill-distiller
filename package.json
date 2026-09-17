@@ -4,7 +4,15 @@
 	"description": "Distills reusable skills from completed pi conversations through a human-reviewed staging workflow.",
 	"type": "module",
 	"license": "MIT",
-	"author": "pi-skill-distiller contributors",
+	"author": "yifan9898 <weiy6@seas.upenn.edu>",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/yifan9898/pi-skill-distiller.git"
+	},
+	"homepage": "https://github.com/yifan9898/pi-skill-distiller#readme",
+	"bugs": {
+		"url": "https://github.com/yifan9898/pi-skill-distiller/issues"
+	},
 	"keywords": [
 		"pi-package",
 		"pi",
