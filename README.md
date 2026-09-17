@@ -36,7 +36,24 @@ completed conversation
 
 ## Install
 
-This plugin requires Pi `0.84.3` and Node.js `22.19` or newer.
+This plugin is published on npm as `pi-skill-distiller`.
+
+Requirements:
+
+- Pi `0.84.3`
+- Node.js `22.19` or newer
+
+Install from npm:
+
+```bash
+pi install npm:pi-skill-distiller
+```
+
+Install from GitHub:
+
+```bash
+pi install git:github.com:yifan9898/pi-skill-distiller
+```
 
 Local trial from a checkout:
 
@@ -44,16 +61,10 @@ Local trial from a checkout:
 pi -e ./pi-skill-distiller
 ```
 
-Local install:
+Local install from a checkout:
 
 ```bash
 pi install ./pi-skill-distiller
-```
-
-Install from GitHub:
-
-```bash
-pi install git:github.com:yifan9898/pi-skill-distiller
 ```
 
 ## Commands
