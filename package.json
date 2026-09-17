@@ -1,0 +1,46 @@
+{
+	"name": "pi-skill-distiller",
+	"version": "0.1.0",
+	"description": "Distills reusable skills from completed pi conversations through a human-reviewed staging workflow.",
+	"type": "module",
+	"license": "MIT",
+	"author": "pi-skill-distiller contributors",
+	"keywords": [
+		"pi-package",
+		"pi",
+		"pi-extension",
+		"skills",
+		"distillation"
+	],
+	"files": [
+		"extensions",
+		"README.md",
+		"LICENSE",
+		"CHANGELOG.md"
+	],
+	"pi": {
+		"extensions": [
+			"extensions/distiller/index.ts"
+		]
+	},
+	"scripts": {
+		"check": "tsc --noEmit",
+		"test": "node --experimental-strip-types --test tests/*.test.ts"
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-ai": ">=0.84.3 <0.85.0",
+		"@earendil-works/pi-coding-agent": ">=0.84.3 <0.85.0"
+	},
+	"devDependencies": {
+		"@earendil-works/pi-ai": "0.84.3",
+		"@earendil-works/pi-coding-agent": "0.84.3",
+		"@types/node": "22.19.19",
+		"typescript": "5.9.3"
+	},
+	"engines": {
+		"node": ">=22.19.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
